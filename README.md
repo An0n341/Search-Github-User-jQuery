@@ -2,6 +2,8 @@
 
 A project to search and view the public information of any github user.
 
+![presentation_image](search.png)
+
 ## INSTALLATION
 
 ```sh
