@@ -1,0 +1,97 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Default Style*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: "Lato", sans-serif;
+}
+
+/*Default Style*/
+.container_element {
+  max-width: 800px;
+  width: 90%;
+  height: auto;
+}
+
+#username {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+#username::placeholder {
+  color: #222;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 2px;
+}
+
+.box_structure__user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: #222;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  height: auto;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.box_structure__user-info img {
+  width: 75px;
+  border-radius: 99px;
+  border: solid 5px #90e0ef;
+}
+
+#name_user {
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.social_information {
+  margin: 10px;
+}
+.social_information span {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.another_info {
+  display: grid;
+  grid-template: repeat(3, 1fr)/1fr;
+  text-align: left;
+}
+.another_info i {
+  margin-right: 5px;
+}
+.another_info span {
+  margin: 5px 0;
+}
+.another_info #blog_user a {
+  color: #222;
+}
+.another_info #blog_user a:hover {
+  color: #0099ff;
+}
+
+/*# sourceMappingURL=main.css.map */
