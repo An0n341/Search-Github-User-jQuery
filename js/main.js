@@ -49,7 +49,7 @@ $(document).ready(function(){
              <i class="bi bi-calendar-date"></i> <i>${day} ${arrMonth[month]} ${year}</i>
            </span>
            <span id="blog_user">
-             <i class="bi bi-link-45deg"></i> <a href="#" target="_blank"><i>${user.blog}</i></a>
+             <i class="bi bi-link-45deg"></i> <a href="${user.blog}" target="_blank"><i>${user.blog}</i></a>
            </span>
         </div>
       </div>
